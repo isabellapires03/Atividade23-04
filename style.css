@@ -1,1 +1,20 @@
+p{
+    font-size: 24px;
+    color:blanchedalmond;
+    background-color: black;
+}
+body{background-color: brown; }
 
+p{
+    text-align: center;
+}
+
+#baixo{
+    font-size: 12px;
+    color:blueviolet;
+}
+
+#marca{
+    font-size: 100px;
+    color: lightcoral;
+}
