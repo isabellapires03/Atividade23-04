@@ -9,12 +9,32 @@ p{
     text-align: center;
 }
 
-#baixo{
-    font-size: 12px;
+#A{
+    font-size: 20px;
     color:blueviolet;
 }
 
-#marca{
+#B{
+    font-size: 40px;
+    color: lightcoral;
+}
+
+#C{
+    font-size: 60px;
+    color: lightcoral;
+}
+
+#D{
+    font-size: 80px;
+    color: lightcoral;
+}
+
+#E{
     font-size: 100px;
+    color: lightcoral;
+}
+
+#F{
+    font-size: 120px;
     color: lightcoral;
 }
