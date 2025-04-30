@@ -3,7 +3,21 @@ p{
     color:blanchedalmond;
     background-color: black;
 }
-body{background-color: brown; }
+p{
+    text-align: center;    
+}
+
+body{
+    background-image: image(Design sem nome.png);
+    background-size: cover; 
+}
+
+#titulo{
+font-size: 200px;
+color: peru;
+}
+
+
 
 p{
     text-align: center;
