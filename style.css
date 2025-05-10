@@ -4,6 +4,7 @@ p{
 }
 body {
     background-image: image-set("Fundo_Site.png");
+    background-size: cover;
      
 }
 
@@ -14,65 +15,3 @@ header {
     border-bottom: 1px solid #4626cf; 
 }
 
-.header-image-container img {
-    width: 100%; 
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px; 
-    display: block; 
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-    margin-left: 0;
-    margin-right: 0;
-    opacity: 0.8;
-}
-
-.container {
-    display: flex; 
-    max-width: 1200px; 
-    margin: 20px auto; 
-    padding: 0 20px; 
-    gap: 20px;
-    color: #ffffff; 
-}
-
-.content {
-    flex: 2; 
-}
-
-.content p {
-    text-align: justify; 
-    margin-bottom: 15px; 
-    line-height: 1.6; 
-    color: #ffffff;
-}
-
-.sidebar {
-    flex: 1; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: flex-end;
-    border-radius: 10px; 
-}
-
-.sidebar img {
-    max-width: 80%; 
-    height: auto; 
-    margin-bottom: 15px; 
-    border: 1px solid #7a50e7; 
-    padding: 5px; 
-    background-color: #603bdb; 
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    transform: rotate(20deg);
-}
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; 
-    }
-
-    .sidebar {
-        align-items: center; 
-    }
-}
